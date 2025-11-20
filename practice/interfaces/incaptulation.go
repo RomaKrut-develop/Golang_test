@@ -15,3 +15,5 @@ func (s SomeStruct) SomeMethod(in string) (out string){
 func NewSomeInterface(prefix string) SomeInterface {
 	return someStruct{prefix}
 }
+
+//ТАК НЕ НУЖНО ДЕЛАТЬ
